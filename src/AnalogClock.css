@@ -1,0 +1,39 @@
+/* AnalogClock.css */
+.analog-clock {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: relative;
+}
+
+.hand {
+  position: absolute;
+  background: #333;
+  transform-origin: 50% 100%;
+}
+
+.hand:nth-child(1) {
+  width: 2px;
+  height: 60px;
+  top: 15px;
+  left: 50%;
+  margin-left: -1px;
+  background: red;
+}
+
+.hand:nth-child(2) {
+  width: 4px;
+  height: 50px;
+  top: 25px;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.hand:nth-child(3) {
+  width: 6px;
+  height: 40px;
+  top: 30px;
+  left: 50%;
+  margin-left: -3px;
+}
